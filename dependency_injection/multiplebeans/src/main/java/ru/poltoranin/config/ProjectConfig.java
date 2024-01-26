@@ -20,7 +20,7 @@ public class ProjectConfig {
         parrot.setName("parrot1");
         return parrot;
     }
-    @Primary
+    // @Primary
     @Bean
     Parrot parrot2() {
         Parrot parrot = new Parrot();
