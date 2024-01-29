@@ -73,5 +73,6 @@ public class MainController {
         return "main.html";
     }
 }
-
 ```
+### SessiopScope
+![SessionScope](SessionScope.png)
