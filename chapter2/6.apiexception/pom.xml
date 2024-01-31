@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>ru.poltoranin</groupId>
-	<artifactId>firstapp</artifactId>
+	<artifactId>6.apiexception</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>firstapp</name>
+	<name>apiexception</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
@@ -27,6 +27,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aspects</artifactId>
+            <version>5.3.8</version>
+        </dependency>
 	</dependencies>
 
 	<build>
