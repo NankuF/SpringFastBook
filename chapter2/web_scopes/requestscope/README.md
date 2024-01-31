@@ -4,6 +4,7 @@
 
 @RequestScope - потокобезопасен, тк этот бин доступен только одному http-запросу. Spring гарантирует, что экземпляр бина с областью видимости в рамках запроса доступен только для данного HTTP-запроса.
 
+
 ```java
 // LoginProcessor.java
 @Component  // bean
@@ -55,8 +56,6 @@ public class LoginController {
 
         return "login.html";
     }
-
-
 }
 ```
 
@@ -78,7 +77,9 @@ public class LoginController {
 </body>
 </html>
 ```
-
+Данные для формы<br>
+Login: natalie<br>
+Password: password<br>
 
 ### Про @RequestScope
 ![requestScope](requestScope.png)
